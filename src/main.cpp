@@ -34,7 +34,7 @@ int Train::getLength() {
       countOp += 1;
     } else {
       temp->light = false;
-      for (int i = count;i > 0;--i) {
+      for (int i = count; i > 0; --i) {
         temp = temp->prev;
         countOp += 1;
       }
